@@ -1,0 +1,40 @@
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.box {
+  width: 100%;
+  height: 100px; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.dark-blue {
+  background-color: #1a3569; }
+  @media (min-width: 450px) {
+    .dark-blue {
+      width: 25%; } }
+
+.light-blue {
+  background-color: #0293cf; }
+  @media (min-width: 450px) {
+    .light-blue {
+      width: 75%; } }
+  @media (min-width: 550px) {
+    .light-blue {
+      width: 50%; } }
+
+.green {
+  background-color: #037933; }
+
+@media (min-width: 550px) {
+  .dark-blue,
+  .green {
+    width: 25%; } }
+
+/*# sourceMappingURL=main.css.map */
